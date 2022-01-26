@@ -34,7 +34,9 @@ function removeProduct(event) {
 // ITERATION 5
 
 function createProduct() {
-  //... your code goes here
+  let newName = document.querySelector('.create-product input');
+  let newPrice = document.querySelector('.create-product input[type= "number"]');
+  let fixedPrice = Number(newPrice.value).toFixed(2);
 }
 
 window.addEventListener('load', () => {
